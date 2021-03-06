@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/chats_menu"
+        android:title="Chats"
+        android:icon="@drawable/ic_chats"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/status_menu"
+        android:title="Status"
+        android:icon="@drawable/ic_status"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/call_menu"
+        android:title="Calls"
+        android:icon="@drawable/ic_call"
+        app:showAsAction="ifRoom"/>
+</menu>
